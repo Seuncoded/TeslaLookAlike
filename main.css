@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header {
+    background: url(Model3.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+.head {
+    background-color: rgb(27, 38, 65);
+    padding: 20px 100px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    
+
+
+}
+img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 20px 100px;
+    width: 100%;
+    margin-top: -100px;
+    position: sticky;
+
+}
+
+.navbar a {
+
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.navbar a:hover {
+    background-color: rgb(75, 76, 75);
+    height: 30px;
+    padding: 5px;
+
+}
+
+.mod {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 450px;
+}
+
+.mod h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.mod p {
+    font-size: 20px;
+
+
+}
+
+.modd {
+
+    text-align: center;
+    margin-top: 280px;
+    font-stretch: 100%;
+    padding-left: 50px;
+
+}
+
+.modd button {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+
+
+}
+
+.bntb {
+    background-color: rgb(63, 67, 76);
+    color: white;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+.bntb {
+
+    font-weight: 300;
+}
+
+
+
+.head h2 {
+
+    font-size: 25px;
+}
+
+.head a {
+
+    color: white;
+}
+
+.modd p {
+
+    text-align: center;
+    font-size: 12px;
+}
+
+.base {
+    position: relative;
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.lay2 {
+    background: url(solar.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.up {
+
+    text-align: center;
+}
+
+.up a {
+    color: white;
+}
+
+.up p {
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.dd button {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+
+
+}
+
+.bntb {
+    background-color: rgb(63, 67, 76);
+    color: white;
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+.bntb {
+
+    font-weight: 300;
+}
+
+
+.dd {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.up {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.lay3 {
+    background: url(modelx.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+
+.lay4 {
+    background: url(roof.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.lay5 {
+    background: url(modela.avif);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.upp {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upp a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.upp p {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.lay6 {
+    background: url(access.avif);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+}
+
+.upc {
+
+    text-align: center;
+}
+
+.upc a {
+    color: rgb(5, 4, 4);
+}
+
+.upc p {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+.vidd{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    
+}
+
+.vidd h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    margin-bottom: 400px;
+    font-weight: 200;
+}
+
+.vidcont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.video{
+    width: 1000px;
+}

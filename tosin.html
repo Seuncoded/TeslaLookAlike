@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list{
+            list-style-type: none;
+            float: right;
+            display: flex;
+            gap: 20px;
+        }
+
+        .list li a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        img{
+            width: 100px;
+        }
+
+
+        .dropMenu{
+            display: none;
+        }
+
+        .dropDownVehicle:hover .dropMenu{
+            display: block;
+        }
+
+        .energyDown{
+            display: none;
+        }
+
+        .energyDown:hover .energyDown{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li class="dropDownVehicle"><a href="#">Vehicles</a>
+        <div class="dropMenu">
+            <h1>Hello World</h1>
+            <img src="../facebook/facebook.svg" alt="">
+        </div>
+        </li>
+
+
+        <li class="EnergyList"><a href="#">Energy</a>
+        <div class="energyDown">
+            <h1>EnergyHere</h1>
+        </div>
+        </li>
+        <li><a href="#">Charging</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Shop</a></li>
+      </ul>
+</body>
+</html>
